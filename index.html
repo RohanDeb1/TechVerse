@@ -1,0 +1,500 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="/path/to/tailwind.css" rel="stylesheet">
+
+
+<!-- Navbar -->
+<nav
+class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
+>
+<div
+  class="container px-4 mx-auto flex flex-wrap items-center justify-between"
+>
+  <div
+    class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+  >
+    <a
+      class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
+      href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+      ></a
+    ><button
+      class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+      type="button"
+      onclick="toggleNavbar('example-collapse-navbar')"
+    >
+      <i class="text-white fas fa-bars"></i>
+    </button>
+  </div>
+  <div
+    class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+    id="example-collapse-navbar"
+  >
+    <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+      <!-- Icon 1 -->
+      <li class="flex items-center">
+        <a
+          class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+          href="#pablo"
+          ><i
+            class="text-orange-500 fab fa-facebook text-4xl leading-lg"
+          ></i
+          ><span class="lg: inline-block ml-2">THE TECH VERSE</span></a
+        >
+      </li>
+      <!-- Icon 2 -->
+      <li class="flex items-center">
+        <a
+          class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+          href="#pablo"
+          ><i
+            class="text-orange-500 fab fa-twitter text-lg leading-lg"
+          ></i
+          ><span class="lg: inline-block ml-2">Tweet</span></a
+        >
+      </li>
+      <!-- Icon 3 -->
+      <li class="flex items-center">
+        <a
+          class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+          href="#pablo"
+          ><i
+            class="text-orange-500 fab fa-linkedin text-5xl leading-lg"
+          ></i
+          ><span class="lg: inline-block ml-2">SHARE</span></a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+<!-- Hero -->
+<div
+  class="relative pt-16 pb-32 flex content-center items-center justify-center"
+  style="min-height: 95vh"
+>
+  <div
+    class="absolute top-0 w-full h-full bg-top bg-cover"
+    style="
+      background-image: url('https://source.unsplash.com/TMkrN9QZERw/1920x1080');
+    "
+  >
+    <span
+      id="blackOverlay"
+      class="w-full h-full absolute opacity-50 bg-black"
+    ></span>
+  </div>
+  <div class="container relative mx-auto" data-aos="fade-in">
+    <div class="items-center flex flex-wrap">
+      <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+        <div>
+          <h1 class="text-white font-semibold text-5xl">
+            FALL IN LOVE <span class="text-gray-400"></span>WITH <span class="text-blue-400">TECH</span>
+          </h1>
+          <p class="mt-4 text-xl text-blue-200">
+            Welcome to Tech Verse. Explore various amazing gadgets .            
+            A Hub for the Tech Enthusiasts !
+             Tech reviews and many more.
+          </p>
+          <a
+            href="#"
+            class="bg-transparent hover:bg-orange-500 text-blue-400 font-semibold hover:text-white p-4 border border-orange-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer"
+            >LETS CONNECT</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+    style="height: 70px; transform: translateZ(0px)"
+  >
+    <svg
+      class="absolute bottom-0 overflow-hidden"
+      xmlns="http://www.w3.org/2000/svg"
+      preserveAspectRatio="none"
+      version="1.1"
+      viewBox="0 0 2560 100"
+      x="0"
+      y="0"
+    >
+      <polygon points="2560 0 2560 100 0 100"></polygon>
+    </svg>
+  </div>
+</div>
+<!-- About Section -->
+<section id="about" class="relative py-20 bg-black text-white">
+  <div class="container mx-auto px-4">
+    <div class="items-center flex flex-wrap">
+      <div
+        class="w-full md:w-4/12 ml-auto mr-auto px-4"
+        data-aos="fade-right"
+      >
+        <img
+          alt="..."
+          class="max-w-full rounded-lg shadow-lg"
+          src="https://source.unsplash.com/pbBZFYKnd34"
+        />
+      </div>
+      <div
+        class="w-full md:w-5/12 ml-auto mr-auto px-4"
+        data-aos="fade-left"
+      >
+        <div class="md:pr-12">
+          <small class="text-2xl text-green-400">About TECH VERSE</small>
+          <h3 class="text-4xl uppercase font-bold text-blue-400 ">DISCOVER LATEST GADGETS</h3>
+          <p class="mt-4 text-lg leading-relaxed">
+            
+          </p>
+          <ul class="list-none mt-6">
+            <li class="py-2">
+              <div class="flex items-center">
+                <div>
+                  <span
+                    class="font-semibold inline-block py-3 mr-3 text-orange-500"
+                    ><i class="fas fa-dumbbell fa-2x"></i
+                  ></span>
+                </div>
+                <div>
+                  <h4 class="text-xl text-gray-400 ">
+                    A HUB OF GADGET NEWS AND TECH REVIEWS
+                  </h4>
+                </div>
+              </div>
+            </li>
+            <li class="py-2">
+              <div class="flex items-center">
+                <div>
+                  <span
+                    class="font-semibold inline-block py-3 mr-3 text-orange-500"
+                    ><i class="fas fa-hard-hat fa-2x"></i
+                  ></span>
+                </div>
+                <div>
+                  <h4 class="text-xl">
+                   
+                  </h4>
+                </div>
+              </div>
+            </li>
+            <li class="py-2">
+              <div class="flex items-center">
+                <div>
+                  <span
+                    class="font-semibold inline-block py-3 mr-3 text-orange-500"
+                    ><i class="fas fa-users fa-2x"></i
+                  ></span>
+                </div>
+                <div>
+                  <h4 class="text-xl text-blue-300"> Professional TECH BLOGS by ROHAN DEB.</h4>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Mobile Section -->
+<section class="bg-gray-200 pt-20 pb-48">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap justify-center text-center mb-24">
+      <div class="w-full lg:w-6/12 px-4">
+        <h2 class="text-4xl font-semibold uppercase">
+          THE BEST PHONES OF 2K20
+        </h2>
+        <p class="text-lg leading-relaxed m-4">
+          MEET THE POWERHOUSE BEAST SMARTPHONES.
+        </p>
+      </div>
+    </div>
+
+    <!-- Mobile Wrapper -->
+    <div class="flex flex-wrap">
+      <!-- Card 1 -->
+      <div
+        class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+        data-aos="flip-right"
+      >
+        <div class="px-6">
+          <img
+            alt="..."
+            src="https://source.unsplash.com/TpXoTb1uR5A"
+            class="shadow-lg rounded max-w-full mx-auto"
+            style="max-width: 250px"
+          />
+          <div class="pt-6 text-center">
+            <h5 class="text-xl font-bold">iPhone 12 series</h5>
+            <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+              Premium and blazing fast
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+        data-aos="flip-right"
+      >
+      <!-- Card 2 -->
+      <div class="px-6">
+        <img
+          alt="..."
+          src="https://source.unsplash.com/Aon3Ov8toHM"
+          class="shadow-lg rounded max-w-full mx-auto"
+          style="max-width: 250px"
+        />
+        <div class="pt-6 text-center">
+          <h5 class="text-xl font-bold">Samsung GALAXY S21 ULTRA</h5>
+          <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+            THE FLAGSHIP KING
+          </p>
+        </div>
+      </div>
+    </div>
+        
+      <!-- Card 3 -->
+      <div
+        class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+        data-aos="flip-right"
+      >
+        <div class="px-6">
+          <img
+            alt="..."
+            src="https://source.unsplash.com/h26_xb2dGvw"
+            class="shadow-lg rounded max-w-full mx-auto"
+            style="max-width: 250px"
+          />
+          <div class="pt-6 text-center">
+            <h5 class="text-xl font-bold">ASUS ROG Phone 3</h5>
+            <p class="mt-1 text-sm text-gray-600 uppercase font-semibold">
+              THE GAMING BEAST
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+<!-- LAPTOP Section -->
+<section class="bg-gray-200 pt-20 pb-48">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap justify-center text-center mb-24">
+      <div class="w-full lg:w-6/12 px-4">
+        <h2 class="text-4xl font-semibold uppercase">
+          THE BEST OF CLASS LAPTOPS OF 2K20
+        </h2>
+        <p class="text-lg leading-relaxed m-4">
+          MEET THESE COMPACT AND SLEEK BEASTS.
+        </p>
+      </div>
+    </div>
+
+    <!-- LAPTOP Wrapper -->
+    <div class="flex flex-wrap">
+      <!-- Card 4 -->
+      <div
+        class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+        data-aos="flip-right"
+      >
+        <div class="px-6">
+          <img
+            alt="..."
+            src="https://source.unsplash.com/WRW4LLn75qw"
+            class="shadow-lg rounded max-w-full mx-auto"
+            style="max-width: 250px"
+          />
+          <div class="pt-6 text-center">
+            <h5 class="text-xl font-bold">Apple Macbook PRO M1</h5>
+            <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+              THE GAME CHANGER.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+        data-aos="flip-right"
+      >
+      <!-- Card 5 -->
+      <div class="px-6">
+        <img
+          alt="..."
+          src="https://source.unsplash.com/Gi3iUJ1FwxI"
+          class="shadow-lg rounded max-w-full mx-auto"
+          style="max-width: 250px"
+        />
+        <div class="pt-6 text-center">DELL XPS 15</h5>
+          <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+            PREMIUM BORDERLESS BEAUTY
+          </p>
+        </div>
+      </div>
+    </div>
+        
+      <!-- Card 6-->
+      <div
+        class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+        data-aos="flip-right"
+      >
+        <div class="px-6">
+          <img
+            alt="..."
+            src="https://source.unsplash.com/1uBCLmu5BqA"
+            class="shadow-lg rounded max-w-full mx-auto"
+            style="max-width: 250px"
+          />
+          <div class="pt-6 text-center">
+            <h5 class="text-xl font-bold">ASUS ROG ZEPHYROUS S</h5>
+            <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+              THE POWERPACKED GAMING BEAST
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- gadgets -->
+<section class="text-gray-400 body-font bg-gray-700">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap w-full mb-20">
+      <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">GADGETS AND CONSOLES</h1>
+        <div class="h-1 w-20 bg-green-500 rounded"></div>
+      </div>
+      <p class="lg:w-1/2 w-full leading-relaxed text-gray-400 text-opacity-90"></p>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/Zgr1_JPnVaI/720x400" alt="content">
+          <h3 class="tracking-widest text-green-400 text-sm font-medium title-font">DRONE</h3>
+          <h2 class="text-lg text-white font-medium title-font mb-4">DJI MAVIC 2 PRO</h2>
+          <p class="leading-relaxed text-base"></p>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/NVD_32BBZFE/721x401" alt="content">
+          <h3 class="tracking-widest text-green-400 text-sm font-medium title-font">GAMING CONSOLE</h3>
+          <h2 class="text-lg text-white font-medium title-font mb-4">PLAY STATION 5</h2>
+          <p class="leading-relaxed text-base"></p>
+        </div>
+      </div>
+      <div class="xl:w-1/4 md:w-1/2 p-4">
+        <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/cl8cxlAbaiw/722x402" alt="content">
+          <h3 class="tracking-widest text-green-400 text-sm font-medium title-font">CAMERA</h3>
+          <h2 class="text-lg text-white font-medium title-font mb-4">SONY A7 S3</h2>
+          <p class="leading-relaxed text-base"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+<!-- download-->
+<section class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-5 py-24 mx-auto flex items-center md:flex-row flex-col">
+    <div class="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
+      <h2 class="text-sm text-blue-400 tracking-widest font-medium title-font mb-1">DOWNLOAD TECH VERSE APP </h2>
+      <h1 class="md:text-3xl text-2xl font-medium title-font text-green-300">FOR BOTH ANDROID AND IOS</h1>
+    </div>
+    <div class="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
+      <button class="bg-gray-800 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 hover:bg-opacity-50 focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 512 512">
+          <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
+        </svg>
+        <span class="ml-4 flex items-start flex-col leading-none">
+          <span class="text-xs text-gray-300 mb-1">GET IT ON</span>
+          <span class="title-font font-medium">Google Play</span>
+        </span>
+      </button>
+      <button class="bg-gray-800 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 hover:bg-opacity-50 focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 305 305">
+          <path d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z"></path>
+          <path d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z"></path>
+        </svg>
+        <span class="ml-4 flex items-start flex-col leading-none">
+          <span class="text-xs text-gray-300 mb-1">Download on the</span>
+          <span class="title-font font-medium">App Store</span>
+        </span>
+      </button>
+    </div>
+  </div>
+</section>
+<hr>
+<!-- Contact -->
+<section class="text-gray-400 bg-gray-900 body-font relative">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-12">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-300">Contact Us</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-blue-400">FOR ANY QUERY AND BUSINESS.</p>
+    </div>
+    <div class="lg:w-1/2 md:w-2/3 mx-auto">
+      <div class="flex flex-wrap -m-2">
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="name" class="leading-7 text-sm text-gray-400">Your Name</label>
+            <input type="text" id="name" name="name" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-yellow-500 focus:bg-gray-900 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
+            <input type="email" id="email" name="email" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-yellow-500 focus:bg-gray-900 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div>
+        <div class="p-2 w-full">
+          <div class="relative">
+            <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
+            <textarea id="message" name="message" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-yellow-500 focus:bg-gray-900 focus:ring-2 focus:ring-yellow-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+          </div>
+        </div>
+        <div class="p-2 w-full">
+          <button class="flex mx-auto text-red-900 bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-400 rounded text-lg">Send Message</button>
+        </div>
+        <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
+          <a class="text-blue-300">techverse100@gmail.com</a>
+          <p class="leading-normal my-5 text-blue-200">@rohandeb
+            <br>FOLLOW US ON SOCIAL MEDIA AND JOIN TECHVERSE FAMILY
+          </p>
+          <span class="inline-flex">
+            <a class="text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-gray-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
